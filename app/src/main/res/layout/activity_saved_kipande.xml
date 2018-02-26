@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context="com.makau.kelvin.idscantask.SavedKipandeActivity">
+
+    <android.support.v7.widget.RecyclerView
+    android:id="@+id/savedRV"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+</android.support.v7.widget.RecyclerView>
+    <LinearLayout
+        android:id="@+id/no_saved"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp">
+        <TextView
+            android:gravity="center"
+            android:drawablePadding="4dp"
+            android:drawableStart="@drawable/backid_white"
+            android:padding="12dp"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"
+            android:fontFamily="sans-serif"
+            android:text="No saved Kipande, Save some to see them here : )"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/backid_white" />
+
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

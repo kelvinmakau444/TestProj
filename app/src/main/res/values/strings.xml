@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">IdScanTask</string>
+    <string name="mrzstr"><![CDATA[IDKY<<<<<<<<<<<<<<<<23456789<<KELVIN<<MAKAU<<94011219M2058<<<<B]]></string>
+    <string name="title_activity_main_scan">MainScanActivity</string>
+    <string name="prompt">Currency</string>
+    <string name="prompt_two">Payment Method</string>
+
+    <string-array name="p_types">
+        <item>Cash on Hand</item>
+        <item>Mpesa</item>
+        <item>Credit/Debit Card</item>
+    </string-array>
+</resources>
